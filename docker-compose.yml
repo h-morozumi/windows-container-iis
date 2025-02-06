@@ -1,0 +1,7 @@
+version: "3.4"
+
+services:
+  aspnetapp:
+    build: .
+    ports:
+      - "80:80"  # ホストのポート 80 をコンテナのポート 80（IIS）にマッピング
